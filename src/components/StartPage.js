@@ -6,10 +6,14 @@ function StartPage({ onStart }) {
       <div className="h-[15vh]"></div>
       <div
         className="w-full bg-cover bg-center"
-        style={{ backgroundImage: `url(${image})`, height: "400px" }}
+        style={{
+          backgroundImage: `url(${image})`,
+          minHeight: "40vh",
+          height: "auto",
+        }}
       >
-        <div className="flex justify-center items-center h-full">
-          <div className="bg-white p-8 h-[40vh] w-[40vh] flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center h-full ">
+          <div className="bg-white p-8 h-[40vh] w-[40vh] flex flex-col justify-center items-center m-14 ">
             <h1 className="text-[14px] text-black font-semibold text-center leading-[1.14] mb-4">
               Welcome to the Statistics Quiz!
             </h1>
