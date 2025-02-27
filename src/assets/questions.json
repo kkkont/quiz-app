@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is the capital of Estonia?",
+    "options": ["Tallinn", "Tartu", "Narva"],
+    "correctAnswer": "Tallinn"
+  },
+  {
+    "question": "Which is the largest planet in our solar system?",
+    "options": ["Earth", "Jupiter", "Saturn"],
+    "correctAnswer": "Jupiter"
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "options": ["Mount Everest", "K2", "Kangchenjunga"],
+    "correctAnswer": "Mount Everest"
+  }
+]
