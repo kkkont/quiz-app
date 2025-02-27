@@ -1,17 +1,32 @@
 [
   {
-    "question": "What is the capital of Estonia?",
-    "options": ["Tallinn", "Tartu", "Narva"],
-    "correctAnswer": "Tallinn"
+    "question": "Mitu kontserti toimus 2023 aastal?",
+    "options": ["2789", "3358", "2580"],
+    "correctAnswer": "3358"
   },
   {
-    "question": "Which is the largest planet in our solar system?",
-    "options": ["Earth", "Jupiter", "Saturn"],
-    "correctAnswer": "Jupiter"
+    "question": "Milline lavastuse liik oli 2023 aastal kõige populaarsem?",
+    "options": ["Sõnalavastus", "Muusikalavastus", "Tantsulavasts"],
+    "correctAnswer": "Sõnalavastus"
   },
   {
-    "question": "What is the tallest mountain in the world?",
-    "options": ["Mount Everest", "K2", "Kangchenjunga"],
-    "correctAnswer": "Mount Everest"
+    "question": "Millises maakonnas on kõige rohkem muuseumeid 2023. aastal.",
+    "options": ["Tartu maakond", "Harju maakond", "Pärnu maakond"],
+    "correctAnswer": "Harju maakond"
+  },
+  {
+    "question": "Milline järgnevatest oli kõige populaarsem rahvakultuuri harrastajate seas 2023. aasta põhjal?",
+    "options": ["Rahvatants", "Harrastusteater", "Koorilaul"],
+    "correctAnswer": "Koorilaul"
+  },
+  {
+    "question": "Mis maakonnas oli spordiorganisasioonides spordiharrastajaid enim 2024. aasta järgi?",
+    "options": ["Tartu maakond", "Harju maakond", "Pärnu maakond"],
+    "correctAnswer": "Harju maakond"
+  },
+  {
+    "question": "Millisel neist oli kõige suurem saatemaht telejaamades 2023. aastal?",
+    "options": ["Uudised", "Sport", "Lavastuslikud saated ja filmid"],
+    "correctAnswer": "Lavastuslikud saated ja filmid"
   }
 ]

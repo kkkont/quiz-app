@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import StartPage from "./components/StartPage"; // Import the StartPage component
-import QuizPage from "./components/QuizPage"; // Import the QuizPage component
-import FinishPage from "./components/FinishPage"; // Import the FinishPage component
-import questions from "./assets/questions.json"; // Import the questions from the JSON file
+import StartPage from "./components/StartPage";
+import QuizPage from "./components/QuizPage";
+import FinishPage from "./components/FinishPage";
+import questions from "./assets/questions.json";
+import pattern from "./assets/pattern.svg";
 
 import "./App.css";
 
@@ -12,16 +13,16 @@ function App() {
   const [score, setScore] = useState(0);
 
   const startQuiz = () => {
-    setQuizStarted(true); // Starts the quiz
+    setQuizStarted(true);
   };
 
   const finishQuiz = (finalScore) => {
-    setScore(finalScore); // Sets the final score
-    setQuizFinished(true); // Marks the quiz as finished
+    setScore(finalScore);
+    setQuizFinished(true);
   };
 
   return (
-    <div className="App">
+    <div className="h-screen " style={{ backgroundImage: `url(${pattern})` }}>
       {/* Show StartPage if quiz hasn't started */}
       {!quizStarted && !quizFinished && <StartPage onStart={startQuiz} />}
 
