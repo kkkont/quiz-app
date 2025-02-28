@@ -7,7 +7,9 @@ This is a simple interactive quiz application built using React.js and JavaScrip
 ### Clone the repository
 
 `git clone https://github.com/kkkont/quiz-app
-cd quiz-app`
+`
+`cd quiz-app
+`
 
 ### Install dependencies
 
