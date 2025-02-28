@@ -8,6 +8,7 @@ This is a simple interactive quiz application built using React.js and JavaScrip
 
 `git clone https://github.com/kkkont/quiz-app
 `
+
 `cd quiz-app
 `
 
