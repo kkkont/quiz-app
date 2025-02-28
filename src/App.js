@@ -13,6 +13,8 @@ function App() {
   const [score, setScore] = useState(0);
 
   const startQuiz = () => {
+    setScore(0);
+    setQuizFinished(false);
     setQuizStarted(true);
   };
 
@@ -24,7 +26,9 @@ function App() {
   return (
     <div className="h-screen " style={{ backgroundImage: `url(${pattern})` }}>
       {/* Show StartPage if quiz hasn't started */}
-      {!quizStarted && !quizFinished && <StartPage onStart={startQuiz} />}
+      {!quizStarted && !quizFinished && (
+        <StartPage onStart={startQuiz} totalQuestions={questions.length} />
+      )}
 
       {/* Show QuizPage if quiz has started */}
       {quizStarted && !quizFinished && (
@@ -33,7 +37,11 @@ function App() {
 
       {/* Show FinishPage if quiz is finished */}
       {quizFinished && (
-        <FinishPage score={score} totalQuestions={questions.length} />
+        <FinishPage
+          score={score}
+          totalQuestions={questions.length}
+          onStart={startQuiz}
+        />
       )}
     </div>
   );
