@@ -5,8 +5,6 @@ import FinishPage from "./components/FinishPage";
 import questions from "./assets/questions.json";
 import pattern from "./assets/pattern.svg";
 
-import "./App.css";
-
 function App() {
   const [quizStarted, setQuizStarted] = useState(false);
   const [quizFinished, setQuizFinished] = useState(false);
